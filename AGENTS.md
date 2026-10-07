@@ -12,5 +12,5 @@
 ## Portfolio architecture
 - Keep the portfolio on one scrolling index page with section anchors because the requested navigation explicitly uses smooth scrolling and active section tracking.
 - Store portfolio content in a browser-safe data module and reusable section components to keep the index focused on presentation.
-- Accept contact inquiries through a validated public server function with private Cloud storage, honeypot and per-email throttling; never expose message reads to visitors.
+- Contact form composes a mailto link client-side; the site has no backend or database.
 - Keep absent project and certificate destinations unavailable rather than fabricating links; project actions open the supplied project details.
