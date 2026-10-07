@@ -40,7 +40,7 @@ Career Interests: Semiconductor Engineering, VLSI Design, Digital IC Design, Chi
 
 
 
-Email: abhinav.gurjar@gmail.com
+Email: abhinav.mandawar45@gmail.com
 
 
 
@@ -1222,7 +1222,7 @@ Display:
 
 Email
 
-abhinav.gurjar@gmail.com
+abhinav.mandawar45@gmail.com
 
 
 

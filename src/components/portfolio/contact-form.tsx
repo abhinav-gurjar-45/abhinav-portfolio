@@ -2,7 +2,7 @@ import { useState, type FormEvent } from 'react';
 import { Send } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
-const CONTACT_EMAIL='abhinav.gurjar@gmail.com';
+const CONTACT_EMAIL='abhinav.mandawar45@gmail.com';
 export function ContactForm(){
  const [errors,setErrors]=useState<Record<string,string>>({});
  function submit(event:FormEvent<HTMLFormElement>){event.preventDefault(); const form=event.currentTarget; const values=new FormData(form); const data={name:String(values.get('name')??'').trim().slice(0,100),email:String(values.get('email')??'').trim().slice(0,254),subject:String(values.get('subject')??'').trim().slice(0,150),message:String(values.get('message')??'').trim().slice(0,5000)}; const next:Record<string,string>={}; if(data.name.length<2)next['name']='Please enter at least 2 characters.';if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email))next['email']='Please enter a valid email address.';if(data.subject.length<3)next['subject']='Please enter at least 3 characters.';if(data.message.length<10)next['message']='Please enter a message of at least 10 characters.';setErrors(next);if(Object.keys(next).length){form.querySelector<HTMLElement>(`#contact-${Object.keys(next)[0]}`)?.focus();return;}
