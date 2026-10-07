@@ -44,11 +44,11 @@ Email: abhinav.mandawar45@gmail.com
 
 
 
-GitHub: https://github.com/abhinav-gurjar
+GitHub: https://github.com/abhinav-gurjar-45
 
 
 
-LinkedIn: https://www.linkedin.com/in/abhinav-gurjar
+LinkedIn: https://www.linkedin.com/in/abhinav-gurjar-431b39423
 
 
 
@@ -1228,13 +1228,13 @@ abhinav.mandawar45@gmail.com
 
 GitHub
 
-github.com/abhinav-gurjar
+github.com/abhinav-gurjar-45
 
 
 
 LinkedIn
 
-linkedin.com/in/abhinav-gurjar
+linkedin.com/in/abhinav-gurjar-431b39423
 
 
 
